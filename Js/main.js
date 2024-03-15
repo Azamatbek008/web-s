@@ -30,25 +30,25 @@
 //   }
 // }
 
-// function menuClick() {
-//   const open = document.querySelector("#open"),
-//     close = document.querySelector("#close"),
-//     menu = document.querySelector("#menu");
+function menuClick() {
+  const open = document.querySelector("#open"),
+    close = document.querySelector("#close"),
+    menu = document.querySelector("#menu");
 
-//   if (open.classList == "hight") {
-//     open.classList.remove("hight");
-//     open.classList.add("show");
-//     close.classList.remove("show");
-//     close.classList.add("hight");
-//     menu.classList.remove("active");
-//   }else{
-//     open.classList.remove("show");
-//     open.classList.add("hight");
-//     close.classList.remove("hight");
-//     close.classList.add("show");
-//     menu.classList.add("active");
-//   }
-// }
+  if (open.classList == "hight") {
+    open.classList.remove("hight");
+    open.classList.add("show");
+    close.classList.remove("show");
+    close.classList.add("hight");
+    menu.classList.remove("active");
+  }else{
+    open.classList.remove("show");
+    open.classList.add("hight");
+    close.classList.remove("hight");
+    close.classList.add("show");
+    menu.classList.add("active");
+  }
+}
 
 const menuText = document.querySelector('#menu-a')
 
